@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sitio Entravision</title>
+	<meta charset="utf-8">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/lightbox.js"></script>
+    <link rel="stylesheet" href="css/lightbox.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="example-lightbox">
+        <h1>Lightbox - Ejemplo</h1>
+        <p>
+            &#x3C;a class=&#x22;lightbox&#x22; data-img=&#x22;__PICTURE_TO_OPEN__&#x22;&#x3E;&#x3C;img src=&#x22;...&#x22; alt=&#x22;thumbnail&#x22; /&#x3E;&#x3C;/a&#x3E;
+        </p>
+        <a class="lightbox" href="#" data-img="img/grupo-virket.jpg"><img src="img/virket.jpg"></a>
+    </div>
+</body>
+</html>
+<script>
+    (function($) {
+        $('.lightbox').lightbox();
+    })(jQuery);
+</script>
